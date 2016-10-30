@@ -1,0 +1,33 @@
+//margin
+.m{
+	&-b-m16{
+		margin-bottom: -16px;
+	}
+	&-b-15{
+		margin-bottom: 1.5%;
+	}
+	&-b-20{
+		margin-bottom: 2%;
+	}
+	&-b-25{
+		margin-bottom: 2.5%;
+	}
+	&-b-30{
+		margin-bottom: 3%;
+	}
+	&-b-35{
+		margin-bottom: 3.5%;
+	}
+	&-b-40{
+		margin-bottom: 4%;
+	}
+	&-b-70{
+		margin-bottom: 7%;
+	}	
+	&-b-5{
+		margin-bottom: 5%;
+	}
+	&-b-10{
+		margin-bottom: 10%;
+	}
+}

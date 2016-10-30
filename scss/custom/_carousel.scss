@@ -1,0 +1,62 @@
+$carousel-padding-bottom: 10px !default;
+$carousel-inner-height: 80vh !default;
+
+$carousel-caption-font-size: 5vw !default;
+$carousel-caption-line-height: 1.2 !default;
+$carousel-caption-color: $brand-secondary; 
+
+$carousel-indicators-bg-color: transparent !default;
+$carousel-indicators-border-color: #FF7400 !default;
+$carousel-indicators-active-color: #FF7400 !default;
+$carousel-indicators-width: 15px !default;
+$carousel-indicators-height: $carousel-indicators-width !default;
+$carousel-indicators-margin: 5px !default;
+
+#carousel-id .carousel {      
+  margin-bottom: 0;
+  padding-bottom: $carousel-padding-bottom;
+  &-inner {
+    height: $carousel-inner-height;
+  }
+  &-caption {
+    color: $carousel-caption-color;  
+    text-shadow: 4px -2px 2px rgba(0, 0, 0, 0.9);
+    line-height: $carousel-caption-line-height;
+    font-size: $carousel-caption-font-size;
+    left: 20%;
+    top: 0;
+    text-align: center;
+    padding: 1em 0;
+  }
+  &-indicators {
+    bottom: 10%;
+  }
+}
+
+.carousel-indicators {
+    bottom: -5%;
+    li{
+      background-color: $carousel-indicators-bg-color;
+      border-color: $carousel-indicators-border-color;
+      width:  $carousel-indicators-width;
+      height: $carousel-indicators-height;
+      margin: $carousel-indicators-margin;
+    }
+    .active {
+      background-color: $carousel-indicators-active-color;
+      margin: $carousel-indicators-margin;
+      width:  $carousel-indicators-width;
+      height: $carousel-indicators-width;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
