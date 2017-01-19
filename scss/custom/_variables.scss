@@ -8,7 +8,7 @@ $brand-danger:                        #d9534f;
 $brand-secondary: 			              #00DA00;
 $bg-secondary:     			              #2A3E16;
 //Text
-$text-color:            							darken($brand-secondary, 20%);
+$text-color:            							#0A2A12;
 //** Global textual link color.
 $link-color:                          $brand-secondary;
 // Navbar lin 
@@ -16,3 +16,4 @@ $navbar-default-link-color:           $brand-secondary;
 $navbar-default-link-hover-bg:        transparent;
 //Carous 
 $carousel-control-color:              $brand-primary;
+
