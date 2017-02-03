@@ -1,7 +1,7 @@
 $carousel-padding-bottom: 10px !default;
-$carousel-inner-height: 80vh !default;
+$carousel-inner-height: 400px !default;
 
-$carousel-caption-font-size: 5vw !default;
+$carousel-caption-font-size: 6vw !default;
 $carousel-caption-line-height: 1.2 !default;
 $carousel-caption-color: $brand-secondary; 
 
@@ -20,7 +20,7 @@ $carousel-indicators-margin: 5px !default;
   }
   &-caption {
     color: $carousel-caption-color;  
-    text-shadow: 4px -2px 2px rgba(0, 0, 0, 0.9);
+    text-shadow: 0 -2px 2px rgba(0, 0, 0, 0.9);
     line-height: $carousel-caption-line-height;
     font-size: $carousel-caption-font-size;
     left: 20%;
@@ -30,6 +30,14 @@ $carousel-indicators-margin: 5px !default;
   }
   &-indicators {
     bottom: 10%;
+  }
+  &-control{
+    &.left{
+      background-image: none;
+    }
+    &.right{
+      background-image: none;
+    }
   }
 }
 
@@ -53,7 +61,10 @@ $carousel-indicators-margin: 5px !default;
 @media screen and (max-width: 767px ) {
   #carousel-id .carousel {      
     &-inner {
-      height: 60vh;
+      height: 200px;
+    }
+    &-caption {
+      top: 30px;
     }
   }
 
@@ -62,7 +73,7 @@ $carousel-indicators-margin: 5px !default;
 @media screen and (max-width: 479px ) {
   #carousel-id .carousel {      
     &-inner {
-      height: 50vh;
+      height: 150px;
     }
   }
 
