@@ -50,6 +50,23 @@ $carousel-indicators-margin: 5px !default;
     }
   }
 
+@media screen and (max-width: 767px ) {
+  #carousel-id .carousel {      
+    &-inner {
+      height: 60vh;
+    }
+  }
+
+}
+
+@media screen and (max-width: 479px ) {
+  #carousel-id .carousel {      
+    &-inner {
+      height: 50vh;
+    }
+  }
+
+}
 
 
 

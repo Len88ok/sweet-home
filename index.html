@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sweet Home</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/all.css">
 </head>
 
@@ -14,12 +15,12 @@
 
 	
 	<!--Navbar header-->
-	<div class="block block-collapse block-overlay">
+	<div class="block">
   	<div class="block-header">
   		<div class="block-inner">
-  			<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+  			<video poster="images/Fire.png" id="bgvid" playsinline autoplay muted loop>
 <!-- 	  		<source src="images/Fireplace.webm" type="video/webm"> -->
-	  		<source src="images/Fireplace - 7069.mp4" type="video/mp4">
+	  		<source src="images/Fire.mp4" type="video/mp4">
 	  		</video>
 	  		<div class="navbar-contacts">
 					<span>Телефоны для связи:</span>
@@ -43,9 +44,9 @@
 						<div class="collapse navbar-collapse navbar-ex1-collapse">				
 							<ul class="nav navbar-nav navbar-right">
 								<li class="active"><a class="text-uppercase" href="#rules">Правила аренды</a></li>
-								<li><a class="text-uppercase" href="#">1 комнатные</a></li>								
-								<li><a class="text-uppercase" href="#">2 комнатные</a></li>
-								<li><a class="text-uppercase" href="#contact">Бронирование</a></li>
+								<li><a class="text-uppercase" href="#1room">1 комнатные</a></li>								
+								<li><a class="text-uppercase" href="#2rooms">2 комнатные</a></li>
+								<li><a class="text-uppercase" href="#reserve">Бронирование</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->						
 					</div>
@@ -120,7 +121,7 @@
   	</div>
   </div>
 	<!-- 1 rooms -->
-  <div class="block">
+  <div class="block" id="1room">
   	<div class="block-content">
   		<div class="block-inner">
   			<div class="container">
@@ -232,7 +233,7 @@
   	</div>
   </div>
 	<!-- 2rooms -->
-	<div class="block">
+	<div class="block" id="2rooms">
   	<div class="block-content">
   		<div class="block-inner">
   			<div class="container">
@@ -340,7 +341,7 @@
   	</div>
   </div>
   <!--Content block 2-->
-	 <div class="block block-fill-auto block-overlay" style="background-image: url('images/kermit.jpg')" id="rules">
+	 <div class="block block-fill-auto block-overlay" style="background-image: url('images/kermit.jpg')" id="reserve">
   	<div class="block-content">
   		<div class="block-inner">
   			<div class="container">
